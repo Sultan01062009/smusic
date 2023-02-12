@@ -1,0 +1,49 @@
+body{
+    background:rgb(238, 223, 13);
+}
+
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+p{color: rgb(153, 0, 255);}
+
+.intro{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.intro_title{
+    margin: 0;
+    font-size: 25px;
+    color:rgb(182, 219, 14)
+  
+}
+
+.intro_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+
+    width: 100px;
+    height: 100px;
+
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.video_media{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
